@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Info Bar */
+.info-bar {
+    background-color: #800080; /* Purple */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.appointment-button {
+    background-color: #00b300; /* Green */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.appointment-button:hover {
+    background-color: #009900;
+}
+
+/* Header */
+.main-header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 80px; 
+}
+
+.header-contact p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header-social a {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #800080;
+}
+
+.header-social a img{
+    height: 30px;
+    width: 30px;
+}
+
+.header-social a:hover {
+    color: #00b300;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2d8c2d; /* Green Background */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.register-button {
+    background-color: #800080;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.register-button:hover {
+    background-color: #660066;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.courses h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.course-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.enroll-button {
+    background-color: #00b300;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.enroll-button:hover {
+    background-color: #009900;
+}
+
+/* Consultation Section */
+.consultation {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+.consult-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.consult-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.consult-item h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.consult-button {
+    background-color: #800080;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.consult-button:hover {
+    background-color: #660066;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+  }
+  
+  .footer-info,
+  .footer-links,
+  .footer-hours {
+    width: 30%;
+  }
+  
+  .footer-info h2 {
+    color: #4CAF50;
+  }
+  
+  .footer-info p,
+  .footer-links ul,
+  .footer-hours p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-hours p {
+    line-height: 1.6;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .modal, .form-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content, .form-content {
+    background-color: #fff;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close, .form-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .form-close:hover,
+.close:focus, .form-close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
